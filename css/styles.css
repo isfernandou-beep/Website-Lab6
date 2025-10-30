@@ -1,0 +1,134 @@
+*{
+
+}
+header{
+    background: linear-gradient(#0044e2, rgb(156, 179, 255));
+    color: rgb(255, 255, 255);
+    padding: 5x 5x;
+    text-align: center;
+    border-bottom: 3px solid #0600b3;
+    position: relative;
+    overflow: hidden;
+}
+body{
+        font-family: Verdana, sans-serif;
+        background-color: #006bf7;
+        line-height: 1.0;
+        margin: 0;
+            border-bottom: 3px solid #0600b3;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0px 0px;
+    border-bottom: 3px blue;
+}
+
+.navbar li{
+    margin: 1.5%;
+    padding: 0px 5px;
+}
+
+.navbar{
+    display: block;
+    border-bottom: 3px blue;
+
+    
+}
+.navbar a{
+    color: blue;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 5px 4px;
+    font-weight: bold;
+        border-bottom: 3px blue;
+
+}
+.post{
+    background-color: #fffaee;
+    padding: 25px;
+    border-bottom: 3px blue;
+    position: relative;
+    letter-spacing: 3px;
+    font-family: sans-serif;    
+    -align: center;
+}
+.post-header h3{
+text-align: center;
+text-transform: uppercase;
+}
+.post-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    max-width: 100%;
+    border: 4px solid #fffaee;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 102, 255, 0.5);
+    transition: transform 0.7s ease;
+}
+.post-header:hover{
+    transform: scale(1.02);
+}
+.post-body{
+    color: rgb(0, 0, 0);
+    text-align:justify;
+    padding: 0 25px 25px 25px;}
+    
+.post-body .td{
+        border-radius: 8px;
+        margin: 0px;
+}
+.post-uno ul{
+    padding: 3px 9px;
+    margin: 8px;
+}
+.subtitulo{
+    color: rgb(66, 92, 138);
+        width: 600px;
+        margin-top: 8px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+}
+.post-body table:has(img) {
+    margin:  auto;
+    border-collapse: collapse;
+    width: auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 253, 109);
+
+}
+.post-body table {
+    color: #fffaee;
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: separate;
+    border-spacing: 12px 10px;
+    background: #3d5dff;
+    border-radius: 5px;
+    box-shadow: black;
+}
+footer {
+    background: linear-gradient(to bottom, #0044e2, #2247ff);
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.submitbutton{
+    color: rgb(20, 57, 220);
+    background-color: #fffaee;
+    border-color: rgb(0, 18, 219);
+    border-radius: 3px;
+}
+.submitbutton:hover {
+    background-color: #0f00e6;
+    color: #fffaee;
+}
