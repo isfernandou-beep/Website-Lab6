@@ -4,7 +4,7 @@
 header{
     background: linear-gradient(#0044e2, rgb(156, 179, 255));
     color: rgb(255, 255, 255);
-    padding: 5x 5x;
+    padding: 5xp 5xp;
     text-align: center;
     border-bottom: 3px solid #0600b3;
     position: relative;
@@ -15,8 +15,6 @@ body{
         background-color: #006bf7;
         line-height: 1.0;
         margin: 0;
-            border-bottom: 3px solid #0600b3;
-
 }
 .navbar ul{
     display: flex;
@@ -25,7 +23,7 @@ body{
     background-color: rgb(255, 255, 255);
     margin: 0%;
     padding: 0px 0px;
-    border-bottom: 3px blue;
+    border-bottom: 3px solid #0600b3;
 }
 
 .navbar li{
@@ -55,7 +53,6 @@ body{
     position: relative;
     letter-spacing: 3px;
     font-family: sans-serif;    
-    -align: center;
 }
 .post-header h3{
 text-align: center;
@@ -71,7 +68,7 @@ text-transform: uppercase;
     box-shadow: 0 5px 15px rgba(0, 102, 255, 0.5);
     transition: transform 0.7s ease;
 }
-.post-header:hover{
+.post-header img:hover{
     transform: scale(1.02);
 }
 .post-body{
